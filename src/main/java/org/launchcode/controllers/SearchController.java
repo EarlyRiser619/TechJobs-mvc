@@ -23,5 +23,12 @@ public class SearchController {
     }
 
     // TODO #1 - Create handler to process search request and display results
+    public String search(Model model, @RequestParam String column, @RequestParam String searchTerm) {
+
+        for (searchTerm : column) {
+            System.out.println();
+        }
+    }
+
 
 }
